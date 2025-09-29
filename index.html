@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vitaminas - Proyecto Biología</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f7f6fb;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+      color: white;
+      text-align: center;
+      padding: 30px 10px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    header p {
+      font-size: 1.2em;
+      margin-top: 5px;
+    }
+
+    nav {
+      background: #e9ecef;
+      text-align: center;
+      padding: 15px 0;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #2575fc;
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+
+    nav a:hover {
+      color: #6a11cb;
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 30px;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      color: #6a11cb;
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+
+    h3 {
+      color: #2575fc;
+      font-size: 1.5em;
+      margin-top: 20px;
+    }
+
+    ul, ol {
+      padding-left: 25px;
+    }
+
+    .imagen {
+      text-align: center;
+      margin: 25px 0;
+    }
+
+    .imagen img {
+      max-width: 90%;
+      height: auto;
+      border-radius: 15px;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+      transition: transform 0.3s;
+    }
+
+    .imagen img:hover {
+      transform: scale(1.03);
+    }
+
+    .actividad {
+      background: #f0f9ff;
+      border-left: 5px solid #2575fc;
+      padding: 15px;
+      margin: 15px 0;
+      border-radius: 8px;
+    }
+
+    .video-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    iframe {
+      width: 80%;
+      height: 400px;
+      border: none;
+      border-radius: 10px;
+    }
+
+    footer {
+      background: #2575fc;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    footer p {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Encabezado principal -->
+  <header>
+    <h1>Vitaminas: Claves para la Vida</h1>
+    <p>Proyecto de Biología - 9° Grado</p>
+  </header>
+
+  <!-- Menú de navegación -->
+  <nav>
+    <a href="vitaminas.html">Vitaminas</a>
+    <a href="importancia.html">Importancia</a>
+    <a href="clasificacion.html">Clasificación</a>
+    <a href="imagenes.html">Imágenes</a>
+  </nav>
+
+  <!-- Sección Vitaminas -->
+  <section id="vitaminas">
+    <h2>¿Qué son las vitaminas?</h2>
+    <p>Las vitaminas son sustancias orgánicas esenciales que el cuerpo necesita en pequeñas cantidades para funcionar correctamente. Aunque no proporcionan energía directamente como los carbohidratos o las grasas, son fundamentales para regular reacciones químicas y procesos metabólicos. Sin vitaminas, nuestro cuerpo no podría producir enzimas, hormonas y otras sustancias necesarias para mantenernos sanos.</p>
+    <p>Existen trece vitaminas esenciales, cada una con funciones específicas. Estas no son producidas en cantidades suficientes por el organismo, por lo que deben ser obtenidas a través de la alimentación diaria. Las deficiencias de vitaminas pueden provocar enfermedades y trastornos graves.</p>
+    <div class="imagen">
+      <img src="https://www.ilerna.es/blog/imagenes/wordpress_ilerna/production/vitaminas.jpg" alt="Frutas y verduras ricas en vitaminas">
+    </div>
+  </section>
+
+  <!-- Importancia -->
+  <section id="importancia">
+    <h2>Importancia de las Vitaminas</h2>
+    <p>Las vitaminas son cruciales para la salud, el crecimiento y el bienestar general. Ayudan a fortalecer el sistema inmunológico, mantener la piel, los huesos y los dientes sanos, y permitir el correcto funcionamiento de los órganos internos. Además, regulan procesos como la coagulación sanguínea, la producción de glóbulos rojos y la liberación de energía de los alimentos.</p>
+    <p>Una dieta equilibrada rica en frutas, verduras, cereales integrales, carnes magras y lácteos suele aportar la cantidad suficiente de vitaminas. Sin embargo, ciertos grupos de personas, como embarazadas, ancianos o personas con enfermedades crónicas, pueden necesitar suplementos para cubrir sus necesidades.</p>
+  </section>
+
+  <!-- Clasificación -->
+  <section id="clasificacion">
+    <h2>Clasificación de las Vitaminas</h2>
+    <p>Las vitaminas se clasifican según su solubilidad en dos grandes grupos:</p>
+    <ul>
+      <li><strong>Liposolubles:</strong> A, D, E y K. Se almacenan en la grasa del cuerpo y en el hígado, por lo que no es necesario consumirlas todos los días. Son importantes para la visión, la coagulación sanguínea y la salud de los huesos.</li>
+      <li><strong>Hidrosolubles:</strong> C y el complejo B (B1, B2, B3, B6, B12, ácido fólico, etc.). Se disuelven en agua y se eliminan por la orina, por lo que deben consumirse regularmente. Son esenciales para el sistema nervioso, la producción de energía y la formación de glóbulos rojos.</li>
+    </ul>
+  </section>
+
+  <!-- Imágenes -->
+  <section id="imagenes">
+    <h2>Galería de Imágenes</h2>
+    <div class="imagen">
+      <img src="https://glowuptini.com/wp-content/uploads/2025/04/portada-vitaminas-a-b-c-d-e.webp" alt="Vitaminas A, B, C, D, E">
+    </div>
+    <div class="imagen">
+      <img src="https://inensal.com/wp-content/uploads/vitaminas-hidrosolubles-.jpg" alt="Vitaminas hidrosolubles">
+    </div>
+  </section>
+
+  <!-- Experimento -->
+  <section id="experimento">
+    <h2>Experimento: Detectando Vitamina C</h2>
+    <p><strong>Objetivo:</strong> Comprobar la presencia de vitamina C en diferentes jugos naturales.</p>
+    <p><strong>Materiales:</strong></p>
+    <ul>
+      <li>Jugo de naranja, jugo de limón y jugo de piña.</li>
+      <li>Yodo diluido (solución de yodo).</li>
+      <li>Gotero y vasos transparentes.</li>
+    </ul>
+    <p><strong>Procedimiento:</strong></p>
+    <ol>
+      <li>Coloca en vasos separados una pequeña cantidad de cada jugo.</li>
+      <li>Añade unas gotas de yodo a cada vaso.</li>
+      <li>Observa el cambio de color: mientras más clara quede la mezcla, mayor cantidad de vitamina C contiene.</li>
+    </ol>
+    <p>Este experimento sencillo permite comprobar de manera visual qué jugos son más ricos en vitamina C. Ideal para reforzar el aprendizaje en clase.</p>
+  </section>
+
+  <!-- Actividades -->
+  <section id="actividades">
+    <h2>Actividades Interactivas</h2>
+    <div class="actividad">
+      <strong>1.</strong> Clasifica: ¿Cada vitamina es liposoluble o hidrosoluble?
+    </div>
+    <div class="actividad">
+      <strong>2.</strong> Sopa de letras: Encuentra palabras clave como vitamina, energía, salud.
+    </div>
+    <div class="actividad">
+      <strong>3.</strong> Crea tu propio menú diario rico en vitaminas. 
+    </div>
+  </section>
+  
+  <!-- Video -->
+  <section id="video-ayuda">
+    <h2 style="text-align: center;">Video de ayuda sobre las vitaminas</h2>
+    <div class="video-container">
+      <iframe 
+        src="https://www.youtube.com/embed/f_MSsbKo4Nw?si=3_ewqsDDreX6EpfD" 
+        title="YouTube video player" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        allowfullscreen>
+      </iframe>
+    </div>
+  </section>
+
+  <!-- Créditos -->
+  <footer>
+    <p>Proyecto escolar - Biología 9° Grado | Créditos: Imágenes libres de derechos</p>
+  </footer>
+
+</body>
+</html>
